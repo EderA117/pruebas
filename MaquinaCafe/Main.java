@@ -1,5 +1,49 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Maquina maquina = new Maquina(5000,1000,1500,new Vasos(50,2000),0,0,0);
+        maquina.mostar();
+        maquina.servir(1);
+        maquina.mostar();
+        maquina.servir(2);
+        maquina.servir(1);
+        maquina.servir(2);
+        maquina.servir(2);
+        maquina.servir(1);
+        maquina.servir(1);
+        maquina.mostar();
+        maquina.servir(2);
+        maquina.servir(1);
+        maquina.servir(2);
+        maquina.servir(2);
+        maquina.servir(1);
+        maquina.servir(1);
+        maquina.servir(2);
+        maquina.servir(1);
+        maquina.servir(2);
+        maquina.servir(2);
+        maquina.servir(1);
+        maquina.servir(1);
+        maquina.mostar();
+        maquina.servir(2);
+        maquina.servir(1);
+        maquina.servir(1);
+        maquina.servir(2);
+        maquina.servir(1);
+        maquina.servir(2);
+        maquina.servir(2);
+        maquina.servir(1);
+        maquina.servir(1);
+        maquina.mostar();
+        maquina.servir(3);
+        maquina.servir(3);
+        maquina.servir(3);
+        maquina.servir(3);
+        maquina.mostar();
+        maquina.servir(1);
+        maquina.mostar();
+        maquina.servir(3);
+        maquina.mostar();
+        maquina.servir(3);
+        maquina.mostar();
     }
 }
